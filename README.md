@@ -5,11 +5,22 @@ Fork this repository, choose which language you are most comfortable completing 
 ![equation](equation.png)
 
 
-
+## Testing
 Run the tests to check your code.
 
-For Javascript : `node Javascript/test`
+For Javascript :
+
+    node Javascript/test
 
 *note: with node assertions you will only get a message if the tests have failed*
 
-For Python: `pytest Python/test`
+
+For Python: 
+
+Install pytest
+
+    $ pip install pytest
+
+Then run 
+
+    pytest Python/test.py
