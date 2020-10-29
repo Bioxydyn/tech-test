@@ -5,6 +5,18 @@ Fork this repository, choose which language you are most comfortable completing 
 ![equation](equation.png)
 
 
+    time = range(0:60)
+
+    t_start = 10
+
+    A = 1
+
+    B = 5
+
+    tau = 12
+
+Once you are happy with your code , share your repository with @mj-heaton.
+
 ## Testing
 Run the tests to check your code.
 
