@@ -36,4 +36,4 @@ Install pytest
 
 Then run 
 
-    pytest Python/test.py
+    $ pytest Python/test.py
