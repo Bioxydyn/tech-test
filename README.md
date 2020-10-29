@@ -33,7 +33,7 @@ _τ_ = 12.0
 
 ### Part 2 - Integrating The Wash In Equation
 
-Complete the function `areaUnderWashInEquation` in `equation.js` or `equation.py` so that it implements the equation below. This function should therefore evaluate the area under the first equation between the time points of 0.0 and _t<sub>end</sub>_. You may use any algorithm you wish to do this, but please don't make use of a third-party library.
+Complete the function `areaUnderWashInEquation` in `equation.js` or `equation.py` so that it implements the equation below. This function should therefore evaluate the area under the first equation between the time points of 0.0 and _t<sub>end</sub>_. Your function should make use of the `washInEquation` function developed previously. You may use any algorithm you wish to do the integration, but please don't rely on a third-party library.
 
 ![equation_2](equation_2.png)
 
