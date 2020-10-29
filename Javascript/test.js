@@ -1,7 +1,8 @@
 const assert = require('assert').strict;
 const washInEquation = require('./equation.js')
 
-const expected = washInEquation(0)
-const actual = 0
+assert.equal( 1.0, washInEquation(5))
 
-assert.equal(actual, expected )
+let actual = washInEquation(15)
+
+assert(2.73083481749 >= actual &&  2.67675888051 <= actual)
