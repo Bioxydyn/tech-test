@@ -1,6 +1,6 @@
 # Bioxydyn Tech Test
 
-Fork this repository, choose which language you are most comfortable completing the tech test in (either javascript or python) and complete the code in `equation.js` or `equation.py` using the following equation.
+This repository should be forked to a *private* repository, choose which language you are most comfortable completing the tech test in (either javascript or python) and complete the code in `equation.js` or `equation.py` using the following equation.
 
 ![equation](equation.png)
 
@@ -15,6 +15,7 @@ Fork this repository, choose which language you are most comfortable completing 
 
     tau = 12
 
+This tech test should take approximately 1 hour and if possible should be completed in one sitting with regular commits to show your progress. 
 Once you are happy with your code , share your repository with @mj-heaton.
 
 ## Testing
