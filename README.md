@@ -2,13 +2,11 @@
 
 ## Introduction
 
-Welcome to Bioxydyn's Technical Test! The purpose of the test is to assess your ability to write clean code that implements an equation as specified. The test can be completed using either the Javascript or python programming languages.
+Welcome to Bioxydyn's technical test! The purpose of this test is to assess your ability to write clean code that implements a brief as specified. The test can be completed using either the Javascript or python programming language, and should take you around 1 hour.
 
 ## Instructions
 
-Clone this repository to your computer, and modify the file Javascript/equation.js _or_ Python/equation.py (depending on your language preference) to implement the brief below. When you are finished, zip the tech-test folder and email to matthew.heaton@bioxydyn.com. Alternatively, you may work in a private github repository and share your repository with @mj-heaton & @schofield-r.
-
-This techncal test should take approximately 1 hour and if possible should be completed in one sitting with regular commits to show your progress. 
+Clone this repository and modify the file `Javascript/equation.js` _or_ `Python/equation.py` (depending on your language preference) to implement the brief below. When you are finished, zip the tech-test folder and email to matthew.heaton@bioxydyn.com. Alternatively, you may work in a private github repository and share your repository with `mj-heaton` & `schofield-r`.
 
 If you require any further information or encounter any issues in completing this test, please contact matthew.heaton@bioxydyn.com.
 
@@ -16,22 +14,28 @@ Please *do not* make the source code of your completed test public.
 
 ## The Brief
 
+### Part 1 - The Wash In Equation
+
 Complete the function `washInEquation` in `equation.js` or `equation.py` so that it implements following equation with the following parameter values:
 
 ![equation](equation.png)
 
-where:
-    t_start = 10
+*where:*
 
-    A = 1
+_t<sub>start</sub>_ = 10.0
+_A_ = 1.0
+_B_ = 5.0
+_τ_ = 12.0
 
-    B = 5
+### Part 2 - Integrating The Wash In Equation
 
-    τ = 12
+Complete the function `areaUnderWashInEquation` in `equation.js` or `equation.py` so that it evaluates the area under the equation above between the time points of 0.0 and _t<sub>end</sub>_. You may use any algorithm you wish to do this, but please don't make use of a third-party library.
+
+![equation_2](equation_2.png)
 
 ## Testing your code
 
-Run the provided tests to check your code.
+Please run the provided tests to check your code before submitting it.
 
 ### JavaScript
 
